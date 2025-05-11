@@ -18,18 +18,3 @@ while True:
         break
     validat()
 print()
-
-#AI answer
-guest_list = ['david', 'emma', 'gideon', 'suzzy', 'matthew', 'isaac']
-
-def validate(name):
-    if name in guest_list:
-        print(f"Welcome to the party, {name.capitalize()}!")
-    else:
-        print(f"Sorry, {name.capitalize()}, you're not on the list.")
-
-while True:
-    user_input = input("Enter a name: ").lower()
-    if user_input == 'exit':
-        break
-    validate(user_input)
