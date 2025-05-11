@@ -1,5 +1,5 @@
 #names of people invited to your party
-guest_list = ['david', 'emma', 'gideon', 'suzzy', 'matthew', 'isaac']
+guest_list = ['david', 'charles', 'walter', 'steve', 'anonymous', 'kido']
 user_name = input('Enter a name: ')
 user_small = user_name.lower()
 print()
